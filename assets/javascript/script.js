@@ -17,7 +17,7 @@ var topics = ["dog", "cat", "rabbit", "hamster", "skunk", "goldfish", "bird", "f
 	$("#add-topic").on("click", function (event) {
 		event.preventDefault();
 		var topic = $("#topic-input").val().toLowerCase().trim();
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=dc6zaTOxFJmzC&limit=20";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=dc6zaTOxFJmzC&limit=20";
 
 		$.ajax({
           url: queryURL,
@@ -40,7 +40,7 @@ var topics = ["dog", "cat", "rabbit", "hamster", "skunk", "goldfish", "bird", "f
 
 	function displayGifs () {
 		var topic = $(this).attr("data-name");
-		var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=dc6zaTOxFJmzC&limit=20";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + "&api_key=dc6zaTOxFJmzC&limit=20";
 
 		$.ajax({
           url: queryURL,
