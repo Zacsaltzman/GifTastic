@@ -1,3 +1,7 @@
-# GifTastic
+GifTastic is a web application that utilizes the GIPHY API.  The application has the ability to search for gifs based on search criteria.  Zachary Saltzman is responsible for all aspects of this application.
 
-This app works as a search engine for the Giphy API.  Users can click pre-created buttons to search pre-set topics or they can create new buttons for custom topics.  The search engine returns stills of each gif that can be played once clicked upon.
+Technologies Used: HTML, CSS, Javascript, Bootstrap, jQuery, GIPHY API
+
+Description:
+
+The GifTastic application searches the GIPHY API to find gifs by pressing search buttons.  There is a selection of buttons that are pre-defined, but users can create other buttons through the form on the right.  Gifs are presented with their rating and can be played by pressing them.
